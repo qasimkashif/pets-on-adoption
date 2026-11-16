@@ -14,7 +14,7 @@ Pet adoption profile - a simple website that introduces pets waiting for a home 
 - `contact.html` - Contact
 
 ## AI Tool(s) Used
-<!-- "Gemini" -->
+"Gemini"
 
 ## Live Website
 https://qasimkashif.github.io/pets-on-adoption/
