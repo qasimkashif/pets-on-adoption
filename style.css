@@ -1,0 +1,27 @@
+table, th, td {
+    border: 1px solid black;
+  }
+  body {
+    background-color: lightgreen;
+  }
+  h1 {
+    color: maroon;
+    text-align: center;
+  }
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  button {
+    background-color: maroon;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  button:hover {
+    background-color: #600000;
+  }
