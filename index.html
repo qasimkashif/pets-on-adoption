@@ -2,29 +2,58 @@
 <!-- 26i-3180 -->
 <!-- BSE-D -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | Pets on Adoption</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>PET ON ADOPTION</h1>
-  <img src="dogs.webp" width="300" height="200">
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="pets.html">Our Pets</a>
+    <a href="adopt.html">How to Adopt</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-  <table style="width:35%">
-    <tr>
-      <th>Name</th>
-      <th>Breed</th>
-    </tr>
-    <tr>
-      <td>Bruno</td>
-      <td>Golden Retriever</td>
-    </tr>
-  </table>
+  <main>
+    <h1>PET ON ADOPTION</h1>
+    <p class="center">Every pet deserves a loving home. Meet our four friends and give one a forever family.</p>
 
-  <button onclick="adoptMe()">Adopt Me</button>
+    <div class="cards">
+      <div class="card">
+        <img class="pet-photo" src="images/dog1.jpg" alt="Bruno the Golden Retriever" width="400" height="400">
+        <h3>Bruno</h3>
+        <p>Golden Retriever &middot; 4 months</p>
+        <button onclick="adoptMe('Bruno')">Adopt Me</button>
+      </div>
+      <div class="card">
+        <img class="pet-photo" src="images/dog2.jpg" alt="Milo the Shiba Inu" width="400" height="400">
+        <h3>Milo</h3>
+        <p>Shiba Inu &middot; 2 years</p>
+        <button onclick="adoptMe('Milo')">Adopt Me</button>
+      </div>
+      <div class="card">
+        <img class="pet-photo" src="images/dog3.jpg" alt="Rocky the Labrador" width="400" height="400">
+        <h3>Rocky</h3>
+        <p>Labrador &middot; 4 years</p>
+        <button onclick="adoptMe('Rocky')">Adopt Me</button>
+      </div>
+      <div class="card">
+        <img class="pet-photo" src="images/dog4.jpg" alt="Daisy the Mixed Breed" width="400" height="400">
+        <h3>Daisy</h3>
+        <p>Mixed Breed &middot; 3 years</p>
+        <button onclick="adoptMe('Daisy')">Adopt Me</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Pets on Adoption &middot; Muhammad Qasim &middot; 26i-3180 &middot; BSE-D
+  </footer>
 
   <script src="script.js"></script>
-
 </body>
 </html>
